@@ -1,0 +1,431 @@
+{
+  "id": "9022a21b-0c3b-4b6a-a0f6-2135967ab7ce",
+  "version": "2.0",
+  "name": "ImpactosDoCovid",
+  "url": "https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/",
+  "tests": [{
+    "id": "9bfdf7f7-1d73-49be-afa2-099ee1afdff6",
+    "name": "CT01_Contato",
+    "commands": [{
+      "id": "899f7106-8168-402a-9ede-e45a8f81c8b6",
+      "comment": "",
+      "command": "open",
+      "target": "https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60305453-b3e0-4055-9c5b-b176a55d31ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1362x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc40e2a6-bd7b-48c4-a4df-c86421e88efe",
+      "comment": "",
+      "command": "click",
+      "target": "id=contato",
+      "targets": [
+        ["id=contato", "id"],
+        ["linkText=Contato", "linkText"],
+        ["css=#contato", "css:finder"],
+        ["xpath=//a[contains(text(),'Contato')]", "xpath:link"],
+        ["xpath=//a[@id='contato']", "xpath:attributes"],
+        ["xpath=//body[@id='home']/div/header/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'contato.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contato')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c913dd-ea6e-4664-b544-9929cddd73cb",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Linkedin",
+      "targets": [
+        ["linkText=Linkedin", "linkText"],
+        ["css=.nome1:nth-child(2) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Linkedin')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/jos%C3%A9-augusto-de-oliveira-23996a101/')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Linkedin')]", "xpath:innerText"]
+      ],
+      "value": "Linkedin"
+    }, {
+      "id": "c251acca-25eb-4540-be74-5ce03242d2b5",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Instagram",
+      "targets": [
+        ["linkText=Instagram", "linkText"],
+        ["css=li:nth-child(3) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Instagram')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/joliveirapins/')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Instagram')]", "xpath:innerText"]
+      ],
+      "value": "Instagram"
+    }, {
+      "id": "937a0729-6265-4970-9416-69d2eb551af1",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Facebook",
+      "targets": [
+        ["linkText=Facebook", "linkText"],
+        ["css=li:nth-child(4) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Facebook')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/guto.oliveira.1614')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": "Facebook"
+    }, {
+      "id": "917feb79-a47e-40cb-8734-918e9abe28f9",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Email",
+      "targets": [
+        ["linkText=Email", "linkText"],
+        ["css=li:nth-child(5) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Email')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'mailto:joliveirapins@yahoo.com?Subject=Título%20da%20mensagem')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Email')]", "xpath:innerText"]
+      ],
+      "value": "Email"
+    }, {
+      "id": "25c5e685-e4a3-4b02-b098-924c718aca2b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.nome1:nth-child(7) > .nome",
+      "targets": [
+        ["css=.nome1:nth-child(7) > .nome", "css:finder"],
+        ["xpath=(//a[contains(text(),'Linkedin')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/%C3%A2ngelo-lopes-b2413a200/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": "Linkedin"
+    }, {
+      "id": "74d46ab3-6051-4000-8946-c169a419e475",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(8) > .nome",
+      "targets": [
+        ["css=li:nth-child(8) > .nome", "css:finder"],
+        ["xpath=(//a[contains(text(),'Instagram')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/gelinn247/')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": "Instagram"
+    }, {
+      "id": "81630df9-6e94-4a0d-aa3f-bff6f7daba2d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(9) > .nome",
+      "targets": [
+        ["css=li:nth-child(9) > .nome", "css:finder"],
+        ["xpath=(//a[contains(text(),'Facebook')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/search/top?q=%C3%A2ngelo%20lopes')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": "Facebook"
+    }, {
+      "id": "0e871c27-3833-44fa-8d9c-cf2c947b47fb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(10) > .nome",
+      "targets": [
+        ["css=li:nth-child(10) > .nome", "css:finder"],
+        ["xpath=(//a[contains(text(),'Email')])[2]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/div/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'mailto:angeloglps@gmail.com?\n                                    Subject=Título%20da%20mensagem')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"]
+      ],
+      "value": "Email"
+    }]
+  }, {
+    "id": "d37375c8-c589-43ad-bf82-f1cdea148556",
+    "name": "CT02_Sobre",
+    "commands": [{
+      "id": "0ba808c7-632c-45c5-87a3-9122ba73d224",
+      "comment": "",
+      "command": "open",
+      "target": "https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bc035b2-f2aa-49aa-afd1-bf9cebae9159",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1362x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57921e4c-d2f3-4441-8a43-da8bb339e219",
+      "comment": "",
+      "command": "click",
+      "target": "id=sobre",
+      "targets": [
+        ["id=sobre", "id"],
+        ["linkText=Sobre", "linkText"],
+        ["css=#sobre", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//a[@id='sobre']", "xpath:attributes"],
+        ["xpath=//body[@id='home']/div/header/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sobre.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb573f75-d6d6-4230-abf9-d2ce3ede8cbd",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=UNIVAS",
+      "targets": [
+        ["linkText=UNIVAS", "linkText"],
+        ["css=.dark", "css:finder"],
+        ["xpath=//a[contains(text(),'UNIVAS')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.univas.edu.br/index_univas_1.asp']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'UNIVAS')]", "xpath:innerText"]
+      ],
+      "value": "UNIVAS"
+    }, {
+      "id": "9d616cdd-ffd2-4d0f-b0ea-37f1f6e0f78c",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=José Augusto de Oliveira Pins",
+      "targets": [
+        ["linkText=José Augusto de Oliveira Pins", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(1) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'José Augusto de Oliveira Pins')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/jos%C3%A9-augusto-de-oliveira-23996a101/')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'José Augusto de Oliveira Pins')]", "xpath:innerText"]
+      ],
+      "value": "José Augusto de Oliveira Pins"
+    }, {
+      "id": "4f448c93-0b0b-403e-8fcb-ab6d225f4b2b",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Ângelo Gabriel Lopes",
+      "targets": [
+        ["linkText=Ângelo Gabriel Lopes", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(2) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Ângelo Gabriel Lopes')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/%C3%A2ngelo-lopes-b2413a200/')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ângelo Gabriel Lopes')]", "xpath:innerText"]
+      ],
+      "value": "Ângelo Gabriel Lopes"
+    }, {
+      "id": "43a58afd-197a-4bad-ba10-6bea8e830a36",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Rodrigo Faria",
+      "targets": [
+        ["linkText=Rodrigo Faria", "linkText"],
+        ["css=ul:nth-child(5) > li:nth-child(1) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Rodrigo Faria')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/rodrigoluisfaria/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rodrigo Faria')]", "xpath:innerText"]
+      ],
+      "value": "Rodrigo Faria"
+    }, {
+      "id": "c112d4e4-46f1-4e92-b10f-65c2a5ce629d",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Roberto Rocha",
+      "targets": [
+        ["linkText=Roberto Rocha", "linkText"],
+        ["css=ul:nth-child(5) > li:nth-child(2) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Roberto Rocha')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/rrocharoberto/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Roberto Rocha')]", "xpath:innerText"]
+      ],
+      "value": "Roberto Rocha"
+    }, {
+      "id": "fa2b08ee-4df3-4508-aecb-452738f92fa9",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Jamilton Damasceno",
+      "targets": [
+        ["linkText=Jamilton Damasceno", "linkText"],
+        ["css=li:nth-child(3) > .nome", "css:finder"],
+        ["xpath=//a[contains(text(),'Jamilton Damasceno')]", "xpath:link"],
+        ["xpath=//div[@id='primario3']/div/div/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/in/jamiltondamasceno/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jamilton Damasceno')]", "xpath:innerText"]
+      ],
+      "value": "Jamilton Damasceno"
+    }]
+  }, {
+    "id": "55297d67-cf15-4159-a172-08050c0d4bf5",
+    "name": "CT03_Referencia",
+    "commands": [{
+      "id": "04045a0f-f201-4800-b143-303eafcbb583",
+      "comment": "",
+      "command": "open",
+      "target": "https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1ba012-5ba8-4941-9cf8-ee4f9bd9e653",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf19c7d8-339a-49d0-bb3f-face55a85684",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Leia mais...",
+      "targets": [
+        ["linkText=Leia mais...", "linkText"],
+        ["css=.refer2:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Leia mais...')]", "xpath:link"],
+        ["xpath=//div[@id='secundario']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.vgresiduos.com.br/blog/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Leia mais...')]", "xpath:innerText"]
+      ],
+      "value": "Leia mais..."
+    }, {
+      "id": "20db679d-a3cd-438b-9d70-dbcb0dc75e12",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.refer2:nth-child(8)",
+      "targets": [
+        ["css=.refer2:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Leia mais...')])[2]", "xpath:link"],
+        ["xpath=//div[@id='secundario']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.abecbrasil.org.br/novo/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": "Leia mais..."
+    }, {
+      "id": "99fe2f0d-aee6-4537-86ed-0886f932f716",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.refer2:nth-child(12)",
+      "targets": [
+        ["css=.refer2:nth-child(12)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Leia mais...')])[3]", "xpath:link"],
+        ["xpath=//div[@id='secundario']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ecodebate.com.br/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": "Leia mais..."
+    }, {
+      "id": "954b5a69-430b-45fb-9813-60c17a030a05",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=index",
+      "targets": [
+        ["id=index", "id"],
+        ["linkText=Home", "linkText"],
+        ["css=#index", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[@id='index']", "xpath:attributes"],
+        ["xpath=//body[@id='home']/div/header/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'index.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": "Home"
+    }, {
+      "id": "0ddb94c3-7b28-4158-8293-a8062a024c1d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=contato",
+      "targets": [
+        ["id=contato", "id"],
+        ["linkText=Contato", "linkText"],
+        ["css=#contato", "css:finder"],
+        ["xpath=//a[contains(text(),'Contato')]", "xpath:link"],
+        ["xpath=//a[@id='contato']", "xpath:attributes"],
+        ["xpath=//body[@id='home']/div/header/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'contato.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contato')]", "xpath:innerText"]
+      ],
+      "value": "Contato"
+    }, {
+      "id": "e9eaa1e0-1f59-4bad-9298-195563409aff",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=sobre",
+      "targets": [
+        ["id=sobre", "id"],
+        ["linkText=Sobre", "linkText"],
+        ["css=#sobre", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//a[@id='sobre']", "xpath:attributes"],
+        ["xpath=//body[@id='home']/div/header/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sobre.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": "Sobre"
+    }]
+  }, {
+    "id": "7c568d98-0214-4441-9170-0d6dec74318b",
+    "name": "CT04_Destaques",
+    "commands": [{
+      "id": "e9db08b4-fdb8-400e-85fb-23d2d761a699",
+      "comment": "",
+      "command": "open",
+      "target": "https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3813e462-7e45-4a42-b00b-b5a2d0e679ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1362x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d7b4b3-c064-49db-a192-0a7ecfd47f39",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Leia Mais...",
+      "targets": [
+        ["linkText=Leia Mais...", "linkText"],
+        ["css=.boxSize > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Leia Mais...')]", "xpath:link"],
+        ["xpath=//div[@id='primario']/div/h3/a", "xpath:idRelative"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Leia Mais...')]", "xpath:innerText"]
+      ],
+      "value": "Leia Mais..."
+    }]
+  }],
+  "suites": [{
+    "id": "73feb6dc-bbd9-404f-8b9f-e1cbb265e7fc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9bfdf7f7-1d73-49be-afa2-099ee1afdff6"]
+  }],
+  "urls": ["https://joseaugusto1989.github.io/ImpactosDoCovidNoMeioAmbiente/"],
+  "plugins": []
+}
